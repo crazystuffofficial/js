@@ -1,4 +1,4 @@
-if(!window.top && location.hostname == "crazystuffofficial.github.io"){
+if(window.self != window.top && location.hostname == "crazystuffofficial.github.io"){
   console.log("loaded!");
 } else{
   alert("Don't copy my website.");
